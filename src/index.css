@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+
+.like-button{
+    display: none;
+    cursor: pointer;
+}
+.movie-overlay:hover .like-button {
+    display: flex; /* or block */
+}
+.movie-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,0fr));
+    gap: 2vw;
+    height: 90vh;
+    overflow-y: auto;
+    padding: 16px;
+    /* background-color: #FAF8F2; */
+}
+#home-wrapper{
+    padding: 0 10px;
+}
